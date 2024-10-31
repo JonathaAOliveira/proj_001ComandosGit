@@ -48,7 +48,8 @@ git log
 
 git log --oneline
 
-#Voltar ao estado sem alteração (checkout)
+#Tipos >>> Checkout | Revert | Reset
+#Voltar ao estado sem alteração (checkout) | "Seguro"
 
 git checkout 'b7d4981'
 
@@ -56,11 +57,19 @@ git checkout 'b7d4981'
 
 git checkout master
 
-#Reverter o commit
+#Reverter o commit : Essa ação fará reversão ao ponto indicado... Você ainda terá o historico mas não altera a originalidade | "Meio seguro"
 
 git revert '4c3a61c'
 
-#
+#Reset Volta ao arquivo do ponto indicado, porem não tende a excluir arquivos futuros | "Não é seguro"
+
+git reset '4c3a61c'
+
+#Reset Volta ao arquivo do ponto indicado, porem excluindo todos os arquivos futuros | "Não é seguro"
+
+git reset '4c3a61c' --hard
+
+
 
 
 
