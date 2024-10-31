@@ -79,6 +79,39 @@ touch .env // Exemplo de um arquivo de variavel de ambiente que pode conter aces
 
 touch .gitignore
 
+#Branch -- geralmente utilizadas em feature "navas funcionalidades"
+#listar todas as branchs
+
+git branch
+
+#adicionando um novo branch
+
+git branch teste
+
+#mudando de branch
+
+git checkout teste
+
+#conferindo branch
+
+git branch
+
+#Deletando uma branch
+
+git branch -d teste
+
+#Delete uma branch de qualquer forma
+
+git branch -D teste 
+
+#Renomeando branch
+
+git branch -m NOMEDABRANCHANTIGA NOVONOMEDABRANCH
+
+#Fundindo branchs
+
+
+
 
 
 
