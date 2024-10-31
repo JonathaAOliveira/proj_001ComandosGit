@@ -40,6 +40,10 @@ git add .
 
 git commit -m "Adicionar arquivo index"
 
+#Conjurando arquivos simuntaneos 
+
+git add . && git commit -m "Mensagem"
+
 #Historico de commits
 
 git log
@@ -68,6 +72,33 @@ git reset '4c3a61c'
 #Reset Volta ao arquivo do ponto indicado, porem excluindo todos os arquivos futuros | "Não é seguro"
 
 git reset '4c3a61c' --hard
+
+
+#Ignorar arquivos para o GIT não ficar monitorando....
+touch .env // Exemplo de um arquivo de variavel de ambiente que pode conter acessos ao banco de dados....
+
+touch .gitignore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
