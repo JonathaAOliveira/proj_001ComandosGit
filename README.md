@@ -110,10 +110,7 @@ git branch -m NOMEDABRANCHANTIGA NOVONOMEDABRANCH
 
 #Fundindo branchs
 
-
-
-
-
+git merge NOMEDOBRANCH
 
 
 
