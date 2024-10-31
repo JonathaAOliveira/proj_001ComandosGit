@@ -36,6 +36,33 @@ git rm --cached index.html
 #Adicionar todos os arquivos não rastreados 
 git add .
 
+#Comitar "Finalizar a ação"
+
+git commit -m "Adicionar arquivo index"
+
+#Historico de commits
+
+git log
+
+#Historico versão condensada
+
+git log --oneline
+
+#Voltar ao estado sem alteração (checkout)
+
+git checkout 'b7d4981'
+
+#Voltar ao estado original
+
+git checkout master
+
+#Reverter o commit
+
+git revert '4c3a61c'
+
+#
+
+
 
 
 
