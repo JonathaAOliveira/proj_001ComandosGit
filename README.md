@@ -73,6 +73,9 @@ git reset '4c3a61c'
 
 git reset '4c3a61c' --hard
 
+#Zera tudo até o momento da criação da branch
+git reset HEAD --hard
+
 
 #Ignorar arquivos para o GIT não ficar monitorando....
 touch .env // Exemplo de um arquivo de variavel de ambiente que pode conter acessos ao banco de dados....
@@ -87,6 +90,9 @@ git branch
 #adicionando um novo branch
 
 git branch teste
+
+#adicionando uma nova branch com todos os arquivos atualizados no momento.... "Repositorio online"
+git checkout -b release/alfanumerico origin/release/alfanumerico
 
 #mudando de branch
 
@@ -112,7 +118,18 @@ git branch -m NOMEDABRANCHANTIGA NOVONOMEDABRANCH
 
 git merge NOMEDOBRANCH
 
+#atualiza seu repositório local com as últimas alterações de todos os repositórios remotos que você configurou.
 
+git fetch --all
+
+----------////--------------
+
+#Subir alterações para o GITHUB
+#git push envia as suas alterações locais (aqueles commits que você fez) para um repositório remoto.
+
+git push git@ithub.com:JonathaAOliveira/testes master
+
+git remote 
 
 
 
