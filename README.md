@@ -91,6 +91,10 @@ git branch
 
 git branch teste
 
+ou
+
+git branch -b teste "Em casos do primeiro comando não dá certo"
+
 #adicionando uma nova branch com todos os arquivos atualizados no momento.... "Repositorio online"
 git checkout -b release/alfanumerico origin/release/alfanumerico
 
