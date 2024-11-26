@@ -135,6 +135,16 @@ git push git@ithub.com:JonathaAOliveira/testes master
 
 git remote 
 
+#Configurando chave SSH
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+Comando para criar a Chave SSH no formato RSA
+ssh-keygen -t rsa -b 4096 -C "jonatha.araujo.oliveira@gmail.com"
+
+Cópiar chave SSH, Exemplo:
+
+cat /root/.ssh/id_rsa.pub
+
 
 
 
