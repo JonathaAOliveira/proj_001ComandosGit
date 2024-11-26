@@ -129,6 +129,9 @@ git fetch --all
 ----------////--------------
 
 #Subir alterações para o GITHUB
+
+git push -u origin main
+
 #git push envia as suas alterações locais (aqueles commits que você fez) para um repositório remoto.
 
 git push git@ithub.com:JonathaAOliveira/testes master
