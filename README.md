@@ -146,8 +146,12 @@ ssh-keygen -t rsa -b 4096 -C "jonatha.araujo.oliveira@gmail.com"
 
 Cópiar chave SSH, Exemplo:
 
+cat /home/jonatha/.ssh/id_rsa
+ou
 cat /root/.ssh/id_rsa.pub
 
+"Obs: adicine .pub no final para pegar a chave SSH publica"
+Ex: cat /home/jonatha/.ssh/id_rsa.pub
 
 
 
